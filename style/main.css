@@ -103,6 +103,10 @@ hr {
     margin-top: 40px;
 }
 
+.marg-t {
+    margin-top: 20px;
+}
+
 a {
     color: #f2f2f2;
 }
@@ -185,5 +189,13 @@ a.language {
     width: 25px;
     height: 25px;
     outline: none !important;
+}
+
+.grey-block {
+    background-color: #e0e0e0;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    color: #2a2a2a;
 }
 
