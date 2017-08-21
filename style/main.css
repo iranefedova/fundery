@@ -1,0 +1,189 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 14px;
+    color: #f2f2f2;
+	min-width: 320px;
+	position: relative;
+    background-color: #1a1a1a;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "RobotoThin";
+    font-weight: normal;
+    margin: 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "RobotoLight";
+    margin: 0;
+}
+
+strong {
+    font-weight: normal;
+    font-family: "RobotoMedium";
+}
+
+h4 > strong {
+    font-size: 20px;
+}
+
+hr {
+    border-top: 2px solid rgba(255, 255, 255, 0.4);
+    width: 30%;
+}
+
+.green-text {
+    color: #b4f455;
+}
+
+
+.hidden {
+	display: none;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-vertical {
+    align-items: center;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.picture-link {
+    display: block;
+}
+
+.big-marg-t {
+    margin-top: 40px;
+}
+
+a {
+    color: #f2f2f2;
+}
+
+.dashed {
+    border-bottom: #fff 1px dashed;
+}
+
+.dashed:hover {
+    border-bottom: none;
+}
+
+.top-line {  
+    min-height: 63px;
+    width: 100vw;
+    background-color: #2a2a2a;
+    padding-top: 15px;
+}
+
+a.language {
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: url(../image/lang.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.main {
+    min-height: 360px;
+    background-image: url(../image/newyork.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.main:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.65);
+    content: "";
+}
+
+.account {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    padding-right: 15px;
+    z-index: 2;
+}
+
+.right-border {
+    border-right: 1px rgba(255, 255, 255, 0.4) solid;
+    padding-right: 10px;
+    margin-right: 7px;
+}
+
+.search-block {
+    border-bottom: 2px solid #898989;
+    padding-bottom: 7px;
+    width: 50%;
+}
+
+.search-block > input {
+    border: none;
+    background: none;
+    outline: none !important;
+    color: #959595;
+    font-size: 18px;
+}
+
+.search-btn {
+    border: none;
+    background-color: transparent;
+    background-image: url(../image/search.png);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    outline: none !important;
+}
+
